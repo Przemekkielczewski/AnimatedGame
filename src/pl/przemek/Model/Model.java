@@ -130,10 +130,12 @@ public class Model {
 				|| weapon.getRange() >= range
 				&& weapon.isAttackingFlying() == true) {
 
+			if (targetUnit.getArmour() < weapon.getPower()) {
 			targetUnit.setStructure(targetUnit.getStructure()
 					+ targetUnit.getArmour() - weapon.getPower());
 			if (targetUnit.getStructure() < 0) {
 				targetUnit.setStructure(0);
+			}
 			}
 		}
 

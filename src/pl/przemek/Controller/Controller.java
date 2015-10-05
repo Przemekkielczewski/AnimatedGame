@@ -64,6 +64,7 @@ public class Controller {
 		this.menuFrame.addBriefingOneListener(new ListenerForBriefingOne());
 		this.menuFrame.addQuitGameListener(new ListenerForExit());
 		this.menuFrame.addQuitMenuListener(new ListenerForClose());
+		
 	}
 
 	private UnitsRegister getUnitsRegister() {
