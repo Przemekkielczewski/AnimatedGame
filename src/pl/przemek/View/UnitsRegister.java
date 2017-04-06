@@ -115,8 +115,7 @@ public class UnitsRegister {
 		BufferedImage loadedImage = null;
 		try {
 			loadedImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\" + resName));
+					"Resources\\" + resName));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

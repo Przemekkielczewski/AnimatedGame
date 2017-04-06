@@ -35,32 +35,23 @@ public class ButtonPanel extends JPanel {
 	ButtonPanel() {
 		try {
 			upImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonUp.jpg"));
+					"Resources\\ButtonUp.jpg"));
 			downImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonDown.jpg"));
+					"Resources\\ButtonDown.jpg"));
 			leftImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonLeft.jpg"));
+					"Resources\\ButtonLeft.jpg"));
 			rightImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonRight.jpg"));
+					"Resources\\ButtonRight.jpg"));
 			attackImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonAttack.jpg"));
+					"Resources\\ButtonAttack.jpg"));
 			undoImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonUndo.jpg"));
+					"Resources\\ButtonUndo.jpg"));
 			infoImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonInfo.jpg"));
+					"Resources\\ButtonInfo.jpg"));
 			menuImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonMenu.jpg"));
+					"Resources\\ButtonMenu.jpg"));
 			endImage = ImageIO.read(new File(
-					"C:\\Users\\Ula\\Desktop\\javaproj\\"
-							+ "AnimatedGame\\Resources\\ButtonEnd.jpg"));
+					"Resources\\ButtonEnd.jpg"));
 		} catch (IOException ex) {
 			ex.printStackTrace();
 		}

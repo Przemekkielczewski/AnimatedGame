@@ -18,8 +18,7 @@ public class MapComponent extends JComponent {
 		unitsRegister = new UnitsRegister();
 		
 		try {
-			map = ImageIO.read(new File("C:\\Users\\Ula\\Desktop\\javaproj\\"
-					+ "AnimatedGame\\Resources\\Mars.jpg"));
+			map = ImageIO.read(new File("Resources\\Mars.jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
